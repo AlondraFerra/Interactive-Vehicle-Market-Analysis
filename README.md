@@ -1,42 +1,36 @@
 # [Link del proyecto en Render](https://proyecto5-fema.onrender.com)
 
 
-# Análisis Interactivo del Mercado de Vehículos
+# [Project in Render](https://proyecto5-fema.onrender.com)
 
-## Contexto
-En la compra y venta de vehículos, el kilometraje y el precio son factores determinantes para la toma de decisiones. Esta aplicación interactiva permite visualizar y analizar información clave sobre vehículos disponibles en el mercado, facilitando la identificación de patrones y tendencias. Su objetivo es ayudar a compradores y vendedores a tomar decisiones informadas basadas en datos.
+# Interactive Vehicle Market Analysis
 
-## Herramientas Utilizadas
-- **Python:** Para la manipulación y análisis de datos.
-- **Pandas:** Para la limpieza y estructuración de la información.
-- **Matplotlib y Seaborn:** Para la generación de visualizaciones estadísticas.
-- **Plotly/Dash:** Para la creación de la aplicación interactiva.
-- **Dataset:** Información de vehículos en venta con detalles como kilometraje, precio, año y tipo de combustible.
+## Context
+When buying and selling vehicles, mileage and price are key factors in decision-making. This interactive application enables users to visualize and analyze key vehicle market data, helping identify trends and patterns. Its goal is to assist buyers and sellers in making data-driven decisions.
 
-## Funcionalidades y Visualizaciones
-La aplicación proporciona dos visualizaciones clave para el análisis del mercado automotriz:
+# Tools Used
+- **Python:** For data manipulation and analysis.
+- **Pandas:** For cleaning and structuring information.
+- **Matplotlib & Seaborn:** For statistical visualizations.
+- **Plotly/Dash:** For building the interactive application.
+- **Dataset:** Vehicle listings, including details such as mileage, price, year, and fuel type.
 
-**Histograma de Kilometraje**
+# Functionalities & Visualizations
+The application provides two key visualizations for vehicle market analysis:
 
-- Muestra la distribución de los vehículos según el kilometraje registrado en su odómetro.
-- Permite filtrar los datos según el tipo de combustible (gasolina, diésel, eléctrico, híbrido).
-- Ayuda a identificar rangos de kilometraje más comunes en el mercado.
+**Mileage Histogram**
 
-**Gráfico de Dispersión de Kilometraje y Precio**
+- Displays the distribution of vehicles based on odometer mileage.
+- Allows filtering by fuel type (gasoline, diesel, electric, hybrid).
+- Helps identify the most common mileage ranges in the market.
 
-- Representa la relación entre el kilometraje y el precio de los vehículos.
-- Utiliza diferentes colores para distinguir los años de los vehículos anunciados.
-- Facilita la detección de tendencias de depreciación y posibles valores atípicos.
+**Mileage vs. Price Scatter Plot**
 
-## Análisis de Resultados
-A partir de las visualizaciones generadas, se pueden extraer los siguientes hallazgos:
+- Shows the relationship between odometer mileage and vehicle price.
+- Uses different colors to distinguish vehicle model years.
+- Helps detect depreciation trends and potential outliers.
 
-- **Distribución del Kilometraje:** La mayoría de los vehículos en venta se agrupan en ciertos rangos de kilometraje, lo que indica la oferta más común en el mercado.
-- **Relación Kilometraje-Precio:** Se observa una tendencia clara de depreciación: los vehículos con mayor kilometraje suelen tener precios más bajos, aunque hay excepciones dependiendo de la marca y el modelo.
-- **Año del Vehículo:** Los modelos más recientes presentan menor kilometraje y precios más altos, mientras que los modelos antiguos tienen una mayor dispersión en el precio.
+# Results Analysis
+From the generated visualizations, the following insights were gathered:
 
-## Conclusiones
-Esta aplicación proporciona una herramienta útil para analizar el mercado de vehículos en función del kilometraje y el precio. Al permitir la exploración interactiva de los datos, ayuda a compradores y vendedores a entender mejor la oferta disponible y detectar patrones de depreciación. Además, la segmentación por tipo de combustible ofrece información valiosa sobre las preferencias del mercado.
-
-En futuras versiones, se podrían incluir más filtros y métricas, como la marca y el modelo del vehículo, para hacer el análisis aún más completo.
-
+Mileage Distribution: Most listed vehicles fall within specific mileage ranges, indicating common market offerings.
